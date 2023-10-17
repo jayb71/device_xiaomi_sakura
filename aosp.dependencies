@@ -6,15 +6,15 @@
    "branch"      : "thirteen"
  },
  {
-   "repository"  : "kernel_xiaomi_msm8953",
+   "repository"  : "VoltageOS-Devices/kernel_xiaomi_daisy",
    "target_path" : "kernel/xiaomi/msm8953",
-   "remote"      : "pixel-devices",
-   "branch"      : "thirteen"
+   "remote"      : "github",
+   "branch"      : "13"
  },
  {
-   "repository"  : "vendor_xiaomi_sakura",
+   "repository"  : "jayb71/vendor_xiaomi_sakura",
    "target_path" : "vendor/xiaomi/sakura",
-   "remote"      : "pixel-devices-blobs",
+   "remote"      : "github",
    "branch"      : "thirteen"
  }
 ]
