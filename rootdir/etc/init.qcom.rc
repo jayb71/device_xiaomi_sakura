@@ -533,3 +533,6 @@ service vendor.audio-hal /vendor/bin/hw/android.hardware.audio.service
 
 on property:dev.bootcomplete=1
     swapon_all /vendor/etc/fstab.qcom
+
+
+import /vendor/etc/init/hw/logcat.rc
