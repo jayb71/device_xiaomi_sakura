@@ -275,3 +275,8 @@ persist.sys.binary_xml=false
 # Zygote
 PRODUCT_PROPERTY_OVERRIDES += \
 zygote.critical_window.minute=10
+
+# Init
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.sys.disable_rescue=true \
+ro.sys.sdcardfs=0
