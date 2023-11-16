@@ -3,6 +3,7 @@ vendor_internal_prop(dirac_prop)
 
 # Fingerprint
 vendor_internal_prop(vendor_fingerprint_prop)
+vendor_restricted_prop(vendor_fp_prop)
 
 # SLM
 vendor_public_prop(vendor_slm_prop)
