@@ -678,11 +678,6 @@ case "$target" in
     "msm8953")
         setprop vendor.post_boot.parsed 1
 
-        low_ram_enable=`getprop ro.config.low_ram`
-
-        if [ "$low_ram_enable" != "true" ]; then
-        start gamed
-        fi
     ;;
 esac
 
