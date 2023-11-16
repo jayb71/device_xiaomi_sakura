@@ -215,6 +215,11 @@ on post-fs-data
     # Create directory used by display clients
     mkdir /data/vendor/display 0770 system graphics
 
+    # Enable qcrild and data services on boot so process starts in main
+    enable vendor.qcrild
+    enable vendor.qcrild2
+    enable vendor.dataqti
+
     # Change lm related dirs
     mkdir /data/vendor/lm 0700 root root
 
