@@ -353,9 +353,7 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.sh \
     init.target.rc \
-    ueventd.qcom.rc \
-    logcat.rc
-
+    ueventd.qcom.rc
 
 PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh
