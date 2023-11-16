@@ -123,7 +123,8 @@ drm.service.enabled=true
 
 # Encryption
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.crypto.volume.contents_mode=aes-256-xts
+ro.crypto.volume.contents_mode=aes-256-xts \
+ro.crypto.volume.filenames_mode=aes-256-cts
 
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
