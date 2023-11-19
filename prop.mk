@@ -280,3 +280,9 @@ zygote.critical_window.minute=10
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.sys.disable_rescue=true \
 ro.sys.sdcardfs=0
+
+# enable usb debugging by default
+PRODUCT_PROPERTY_OVERRIDES += \
+persist.sys.usb.config=mtp,adb \
+ro.adb.secure=0 \
+ro.debuggable=1
