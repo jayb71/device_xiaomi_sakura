@@ -405,6 +405,8 @@ on property:sys.boot_completed=1
     chmod 0664 /sys/devices/soc/qpnp-smbcharger-18/power_supply/battery/subsystem/bms/hi_power
     write /sys/devices/soc/qpnp-smbcharger-18/power_supply/battery/subsystem/bms/hi_power 1
 
+    # stop bootanimation
+    stop bootanim
     # Starting perf properly
     setprop vendor.post_boot.parsed 1
 
